@@ -1,0 +1,196 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  flex-basis: 400px;
+  background-image: url(img/_Image_\ +\ _Path_.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1% 7% 0 7%;
+  text-transform: uppercase;
+  color: #fff;
+}
+header .topNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .topNav h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+header .topNav a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #fff;
+  margin-left: 20px;
+}
+header .topNav select {
+  margin-left: 20px;
+  background: none;
+}
+header .bottomNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 50px;
+  padding: 0 40px 0 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+header .bottomNav a {
+  text-decoration: none;
+  color: #393a3a;
+  font-weight: bold;
+  font-size: 14px;
+}
+header .bottomNav a span {
+  font-size: 11px;
+  color: black;
+}
+header h1 {
+  font-size: 45px;
+  margin: 0;
+  font-weight: 500;
+}
+header .h1 {
+  margin-top: 6%;
+  margin-left: 15%;
+}
+header .h2 {
+  margin-left: 25%;
+}
+header .h3 {
+  margin-left: 30%;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  padding: 0% 0% 0% 7%;
+  background-color: #f5f1f1;
+}
+section .content {
+  flex-basis: 55%;
+  display: flex;
+}
+section .content .contentImage {
+  flex-basis: 40%;
+}
+section .content .contentImage img {
+  width: 75%;
+  position: relative;
+  margin-top: -25%;
+}
+section .content .contentInfo {
+  flex-basis: 60%;
+}
+section .content .contentInfo ul li {
+  margin-bottom: 7%;
+  text-transform: uppercase;
+}
+section .content .contentInfo ul li h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+section .content .contentInfo ul li p {
+  margin: 0;
+  font-size: 13px;
+  color: #6e6b6b;
+}
+section .content .contentInfo ul li .orange {
+  color: #f5ba4c;
+}
+section .content .contentInfo ul li::marker {
+  font-size: 1.6rem;
+}
+section .content .contentInfo h2 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #424046;
+}
+section .content .contentInfo .bottomHref {
+  margin-bottom: 15%;
+}
+section .content .contentInfo a {
+  text-decoration: none;
+  color: black;
+  width: 5%;
+  background: none;
+  border: 5px solid black;
+  padding: 20px;
+  font-size: 120%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+section .sectionImage {
+  flex-basis: 45%;
+  background: url(img/_Group_4.png);
+  background-size: cover;
+}
+.calcBorder {
+  position: relative;
+  border: 1px solid black;
+  width: 70%;
+  background-color: #ece7e7;
+  margin-left: 12%;
+  margin-top: -27%;
+}
+.calcBorder .calculator {
+  margin: 4%;
+  padding: 5%;
+  border: 1px solid black;
+  border-style: dashed;
+  background-color: #f5f1f1;
+}
+.calcBorder .calculator h3 {
+  color: #464444;
+  font-weight: 600;
+  font-size: 180%;
+  text-align: center;
+  margin: 4%;
+  text-transform: uppercase;
+}
+.calcBorder .calculator p {
+  color: #504d4d;
+  font-size: 80%;
+}
+.calcBorder .calculator input {
+  color: #7a7a7a;
+}
+.calcBorder .calculator .p1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 3%;
+}
+.calcBorder .calculator input {
+  width: 100%;
+}
+.calcBorder .calculator select {
+  width: 100%;
+  color: #7a7a7a;
+}
+.calcBorder .calculator hr {
+  width: 80%;
+}
+.calcBorder .calculator .p6 {
+  text-align: center;
+  color: #f56e4c;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.calcBorder .calculator .money {
+  color: #f56e4c;
+  text-align: center;
+  margin-bottom: 0;
+}
+.calcBorder .calculator .p7 {
+  text-align: center;
+  margin-top: 0;
+}
