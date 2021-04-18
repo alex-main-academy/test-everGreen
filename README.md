@@ -1,2 +1,1 @@
-# test-everGreen
-test task
+link to githab pages: https://alex-main-academy.github.io/test-everGreen/
