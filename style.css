@@ -8,7 +8,7 @@ body {
 }
 header {
   flex-basis: 400px;
-  background-image: url(/test-everGreen/_Image_\ +\ _Path_.png);
+  background-image: url(/_Image_\ +\ _Path_.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1% 7% 0 7%;
