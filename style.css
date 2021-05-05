@@ -131,7 +131,7 @@ section .content .contentInfo a {
 }
 section .sectionImage {
   flex-basis: 45%;
-  background: url(../_Group_4.png);
+  background: url(../img/_Group_4.png);
   background-size: cover;
 }
 .calcBorder {
